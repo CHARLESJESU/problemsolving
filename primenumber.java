@@ -13,7 +13,7 @@ class primenumbersolution{
 public class primenumber {
     public static void main(String[] args) {
         primenumbersolution s=new primenumbersolution();
-        boolean result=s.primenumberanswer(11);
+        boolean result=s.primenumberanswer(2);
         System.out.print(result);
     }
 }

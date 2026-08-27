@@ -18,6 +18,6 @@ public class subsequenceelement {
         }
     
     for(String answer:result){  
-        System.out.print(answer);
+        System.out.print(answer+' ');
     }}
 }

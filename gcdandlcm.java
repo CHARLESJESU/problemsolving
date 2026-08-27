@@ -28,6 +28,6 @@ class gcdandlcmsolution{
 public class gcdandlcm {
     public static void main(String[] args) {
         gcdandlcmsolution s=new gcdandlcmsolution();
-        s.gcdandlcm(12, 18);
+        s.gcdandlcm(8,10);
     }
 }

@@ -11,7 +11,7 @@ public class searchrotatedarray {
             return mid;
            }
            
-           if(nums[end]<target){
+           if(nums[end]<target  ){
             end=mid-1;
            }
            if(nums[start]>target){

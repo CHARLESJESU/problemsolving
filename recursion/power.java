@@ -1,6 +1,6 @@
 public class power {
     public static void main(String[] args) {
-        System.out.print(power(5, 4));
+        System.out.print(power(5, 5));
     }
     static long power(int base, int pow){
        

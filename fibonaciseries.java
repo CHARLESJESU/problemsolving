@@ -6,7 +6,7 @@ class fibonaciseriessolution{
             return 1;
         }
         else{
-            return number*fibonaciseriesanswer(number-1);
+            return number+fibonaciseriesanswer(number-1);
         }}
         else{
             return 0;
@@ -17,7 +17,7 @@ class fibonaciseriessolution{
 public class fibonaciseries {
     public static void main(String[] args) {
         fibonaciseriessolution s=new fibonaciseriessolution();
-        int result=s.fibonaciseriesanswer(-5);
+        int result=s.fibonaciseriesanswer(5);
         System.out.print(result);
     }
 }

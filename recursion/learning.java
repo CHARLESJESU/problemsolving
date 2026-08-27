@@ -3,20 +3,24 @@ public class learning{
        factorial();
     }
  static void factorial() {
-    factorial1();
-       System.out.print("function 1 called");
+
+       System.out.print("function 0 called");
+           factorial1();
     }
      static void factorial1() {
-    factorial2();
+
        System.out.print("function 1 called");
+           factorial2();
     }
  static void factorial2() {
-    factorial3();
+   
        System.out.print("function 2 called");
+        factorial3();
     }
      static void factorial3() {
-    factorial4();
+
        System.out.print("function 3 called");
+           factorial4();
     }
      static void factorial4() {
        System.out.print("function 4 called");
